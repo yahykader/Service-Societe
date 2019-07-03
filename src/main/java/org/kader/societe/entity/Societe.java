@@ -17,5 +17,4 @@ public class Societe implements Serializable {
     private Long id;
     private String nomSociete;
 
-
 }
