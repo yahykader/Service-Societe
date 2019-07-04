@@ -19,7 +19,7 @@ public class Societe implements Serializable {
     
     
     
-	public Societe() {
+/*	public Societe() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -54,7 +54,7 @@ public class Societe implements Serializable {
 
 	public void setNomSociete(String nomSociete) {
 		this.nomSociete = nomSociete;
-	}
+	}*/
     
     
 
