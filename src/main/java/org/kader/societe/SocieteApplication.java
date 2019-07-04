@@ -1,7 +1,7 @@
 package org.kader.societe;
 
 import org.kader.societe.entity.Societe;
-import org.kader.societe.entity.repository.SocieteRepository;
+import org.kader.societe.repository.SocieteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
