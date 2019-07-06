@@ -6,10 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 import java.util.stream.Stream;
-
+@EnableDiscoveryClient
 @SpringBootApplication
 public class SocieteApplication implements CommandLineRunner {
 
